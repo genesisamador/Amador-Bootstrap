@@ -1,0 +1,110 @@
+ body {
+  background-color: #5B0149;
+  text-align: center;
+}
+.refer {
+  height: 500px;
+  width: 400px;
+}
+.oop {
+  width:300px;
+  height:200px;
+  border:5px solid #FF9328;
+  animation: oop 1s linear 1s infinite alternate;
+}
+.square {
+    background-color: red;
+    color: white;
+    transition: transform 1s, width 1s, height 1s;
+}
+.square:hover {
+    transform: rotate(360deg);
+    width:300px;
+    height:200px;
+}
+.text {
+    font-family: 'Raleway', sans-serif;
+    width:500px;
+    margin:0 auto;
+    color: #FF9328;
+}
+.rectangle {
+    width: 300px;
+    height: 200px;
+    transition: width 1s, color 0.5s;
+}
+.rectangle:hover {
+    background-color: yellow;
+    width: 400px;
+}
+* {
+    border: 0.5px solid #FF3D23;
+}
+  .dropbtn {
+    background-color: #B5004E;
+    color: #FF9328;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    background-color: ;
+    min-width: 160px;
+  }
+  .dropdown-content a {
+    color: #FF9328;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #FF3D23
+  }
+  .dropdown-content a:hover {
+    background-color: #C4033A;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #C4033A;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #FF3D23;
+  }
+iframe {
+  width: 700px;
+  height: 400px;
+}
+@keyframes oop {
+  from {
+    filter: invert(0%);
+  }
+  to {
+    filter: invert(100%);
+  }
+}
+#customers {
+width: 100%;
+}
+
+#customers th, #customers th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers td:hover {background-color: #FF3D23;}
+
+#customers td {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+}
+.jumbotron {
+  background-color: #FF3D23;
+}
+#dis{
+  color: grey;
+}
